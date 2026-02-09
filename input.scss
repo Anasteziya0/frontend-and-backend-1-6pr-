@@ -1,0 +1,33 @@
+//danilova anastasiya
+$main-color: #d3f3fc;
+$color-dark: #1b2e69;
+$color-light: #8de1ff;
+$card-radius: 14px;
+
+@mixin main-card{
+    padding: 18px;
+    border-radius: $card-radius;
+    background-color: aliceblue;
+}
+
+.product_card {
+    @include main-card;
+    width: 320px;
+
+    
+    &__image {
+        width: 320px;
+    }
+
+    &__title {
+        background-color: $main-color;
+        color: $color-dark;
+        font-size: 22px;
+    }
+
+    &__discription {
+        color: #000000;
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}

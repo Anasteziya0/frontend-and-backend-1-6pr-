@@ -1,0 +1,21 @@
+.product_card {
+  padding: 18px;
+  border-radius: 14px;
+  background-color: aliceblue;
+  width: 320px;
+}
+.product_card__image {
+  width: 320px;
+}
+.product_card__title {
+  background-color: #d3f3fc;
+  color: #1b2e69;
+  font-size: 22px;
+}
+.product_card__discription {
+  color: #000000;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/*# sourceMappingURL=output.css.map */
