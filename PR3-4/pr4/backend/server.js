@@ -114,7 +114,7 @@ let products = [
     price: 590,
     stock: 12,
     rating: 4.5,
-    image: "images/мастихины.webp"
+    image: "/images/мастихины.webp"
   },
   {
     id: nanoid(6),
